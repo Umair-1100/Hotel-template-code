@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <title>HOTEL MASTER</title>
+</head>
+
+<body>
+  <main id="main">
+    <!--^=== NAVBAR SECTION  START ===-->
+    <section class="navbar-section">
+      <div class="container">
+        <div class="logo-img-div">
+          <figure><img src="./public/logo.webp" alt="image is not available"></figure>
+        </div>
+        <div class="navbar-menu">
+          <ul class="gggg">
+            <li>HOME</li>
+            <li class="pages">PAGES</li>
+            <li class="aa">testimonial</li>
+            <li class="aa">gallery</li>
+            <li>ROOMS</li>
+            <li>RESERVATION</li>
+            <li>BLOG</li>
+            <li>SHORTCODES</li>
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!--^=== NAVBAR SECTION  START ===-->
+
+    <!--*=== TEXT SECTION  START ===-->
+
+    <section class="text-main-section">
+      <div class="pic-text">
+        <img src="./public/home-pic.webp" alt="Home Img">
+        <h1><span>MY</span>APARTMENT</h1>
+      </div>
+      <div class="center-div">
+        <p>HotelMaster - Apartment Demo</p>
+      </div>
+      <div class="choose">
+        <div class="p-img">
+          <img src="./public/sale-pic.webp" alt="sale pic">
+          <p>Form</p>
+        </div>
+        <h2>$70 PER NIGHT</h2>
+      </div>
+    </section>
+  </main>
+  <!--*=== TEXT SECTION  END ===-->
+
+  <!--!=== CHECK AVAILABILITY SECTION  START ===-->
+  <section class="check-ava">
+    <div class="check-ava-text">
+      <h1>CHECK AVAILABILITY</h1>
+    </div>
+    <div class="inputs">
+      <div class="check-in">
+        <p>Check In</p>
+        <input type="text" id="gdlr-check-in" class="gdlr-datepicker hasDatepicker" data-current-date="2018-05-08"
+          autocomplete="off" data-dfm="d M yy" data-block="[]" value="2018-05-08">
+      </div>
+      <div class="nights">
+        <p>Nights</p>
+        <select name="nigth-select" id="nigth-select">
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+        </select>
+      </div>
+      <div class="check-out">
+        <p>Check Out</p>
+        <input type="text" id="gdlr-check-in" class="gdlr-datepicker hasDatepicker" data-current-date="2018-05-08"
+          autocomplete="off" data-dfm="d M yy" data-block="[]" value="2024-06-10">
+      </div>
+      <div class="adults">
+        <p>Adults</p>
+        <select name="nigth-select" id="nigth-select">
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+        </select>
+      </div>
+      <div class="children">
+        <p>Children</p>
+        <select name="nigth-select" id="nigth-select">
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+        </select>
+      </div>
+      <button class="btn-check-ava">Check Avaliability </button>
+    </div>
+  </section>
+  <!--!=== CHECK AVAILABILITY SECTION  END ===-->
+
+  <!--?=== OUR APARTMENTS SECTION  START ===-->
+  <section class="our-apartment">
+    <div class="our-apa-text">
+      <h1>OUR APARTMENTS</h1>
+      <div class="text--view">
+        <span>View All</span>
+        <i class="fa-solid fa-right-long"></i>
+      </div>
+    </div>
+    <div class="our-apa-btn">
+      <div class="left">
+        <a href="#"><i class="fa-solid fa-chevron-left"></i></a>
+      </div>
+      <div class="right">
+        <a href="#"><i class="fa-solid fa-chevron-right"></i></a>
+      </div>
+    </div>
+  </section>
+  <!--?=== OUR APARTMENTS SECTION  END ===-->
+
+  <!--~=== Services SECTION  Start ===-->
+  <section class="services">
+    <div class="img-dp">
+      <img src="./public/service-1.webp" alt="service-1">
+      <h1>MIDDLE OF DOWNTOWN</h1>
+      <p>Morbi leo risus, porta ac consectetur ac, vesti bulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor
+        mauris condimentum.</p>
+    </div>
+    <div class="img-dp">
+      <img src="./public/hostel-service-4.webp" alt="service-1">
+      <h1>CLEAN ACCOMODATION</h1>
+      <p>Morbi leo risus, porta ac consectetur ac, vesti bulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor
+        mauris condimentum.</p>
+    </div>
+    <div class="img-dp">
+      <img src="./public/service-3.webp" alt="service-1">
+      <h1>FREE AIRPORT TRANSFER</h1>
+      <p>Morbi leo risus, porta ac consectetur ac, vesti bulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor
+        mauris condimentum.</p>
+    </div>
+
+
+  </section>
+  <!--~=== Services SECTION  End ===-->
+
+  <!-- &=== Gallery SECTION  Start === -->
+  <section class="Gallery-main">
+    <div class="news">
+      <div class="heading-div">
+        <h1>NEWS FROM US</h1>
+      </div>
+      <div class="booking">
+        <div class="date-div">
+          <h3>3</h3>
+          <p>Dec</p>
+        </div>
+        <div class="booking-name-date">
+          <h2>Magna parse studiorm</h2>
+          <span><i class="fa-regular fa-clock"></i>03 Dec 2013</span> <span><i class="fa-solid fa-folder"></i>Blog, Fit
+            Row</span> <span><i class="fa-regular fa-comment"></i>2</span>
+        </div>
+      </div>
+      <div class="booking border-booking">
+        <div class="date-div">
+          <h3>3</h3>
+          <p>Dec</p>
+        </div>
+        <div class="booking-name-date ">
+          <h2>Sedial eiusmod tempor</h2>
+          <span><i class="fa-regular fa-clock"></i>03 Dec 2013</span> <span><i class="fa-solid fa-folder"></i>Blog, Fit
+            Row</span> <span><i class="fa-regular fa-comment"></i>0</span>
+        </div>
+      </div>
+      <div class="booking bottom-div-booking">
+        <div class="date-div">
+          <h3>3</h3>
+          <p>Dec</p>
+        </div>
+        <div class="booking-name-date  ">
+          <h2>Gallery Post Format Title</h2>
+          <span><i class="fa-regular fa-clock"></i>03 Dec 2013</span> <span><i class="fa-solid fa-folder"></i>Blog, Life
+            Style, News Article</span> <span><i class="fa-regular fa-comment"></i>2</span>
+        </div>
+      </div>
+      <div class="read-icon">
+        <p>Read All News </p><i class="fa-solid fa-right-long"></i></i>
+      </div>
+    </div>
+    <div class="gallery-div">
+      <div class="heading-gallery">
+        <h1>GALLERY</h1>
+      </div>
+      <div class="images-main">
+        <div class="first-cols">
+          <img src="./public/big-pic.webp" alt="big pic">
+          <div class="img-2">
+            <img src="./public/bed-pic.webp" alt="bed">
+            <img src="./public/room.webp" alt="room">
+          </div>
+        </div>
+        <div class="sec-cols">
+          <img src="./public/beach.webp" alt="beach"><br>
+          <img src="./public/ship.webp" alt="ship"><br>
+          <img src="./public/shake.webp" alt="shake"><br>
+        </div>
+        <div class="thrd-cols">
+          <img src="./public/beach-2.webp" alt="beach-2"><br>
+          <img src="./public/bedroom.webp" alt="bedroom"><br>
+          <img src="./public/fruit.webp" alt="fruit"><br>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--&=== Gallery SECTION  End ===-->
+
+  <!--^=== ABOUT US SECTION  Start === -->
+  <section class="about-us">
+    <div class="about-text">
+      <h1>A LITTLE ABOUT US</h1>
+      <h3>Inspiration can be found everywhere</h3>
+      <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor
+        mauris condimentum nibh, ut fermentum massa justo sit amet risus. Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel
+        scelerisque nisl conse.</p>
+    </div>
+  </section>
+  <!--^=== ABOUT US SECTION  End === -->
+
+  <!--?=== TESTIMONIAL SECTION  End === -->
+  <section class="Testimonial">
+    <div class="main-test">
+      <div class="for-end">
+        <h1>TESTIMONIAL</h1>
+      </div>
+      <div class="btn-testimonial">
+        <div class="btn-left-test">
+          <a href="#"><i class="fa-solid fa-chevron-left left-test"></i></a>
+        </div>
+        <div class="btn-right-test">
+          <a href="#"><i class="fa-solid fa-chevron-right right-test"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--?=== TESTIMONIAL SECTION  End === -->
+
+  <!--*=== FOOTER SECTION  Start === -->
+  <section class="footer">
+    <div class="cols-main">
+      <div class="first-colom">
+        <h2>BOOK NOW!</h2>
+        <h3><i class="fa-solid fa-phone"></i>+92321-088-1100</h3>
+        <h3><i class="fa-regular fa-envelope"></i>uq1121018879@gmail.com</h3>
+        <div class="first-colom-links">
+          <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+          <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+          <a href="#"><i class="fa-brands fa-flickr"></i></a>
+        </div>
+      </div>
+      <div class="sec-colom">
+        <h2>RECENT NEWS</h2>
+        <div class="detail-div">
+          <details>
+            <summary><i class="fa-solid fa-chevron-right summary-right"></i>Sem Porta Mollis Parturient</summary>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quia harum aliquid velit excepturi
+              accusantium cumque voluptatibus quae dolores? Repellendus.</p>
+          </details>
+        </div>
+        <div class="detail-div">
+          <details>
+            <summary><i class="fa-solid fa-chevron-right summary-right"></i>Nullam Lorem Mattis Purus</summary>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quia harum aliquid velit excepturi
+              accusantium cumque voluptatibus quae dolores? Repellendus.</p>
+          </details>
+        </div>
+        <div class="detail-div">
+          <details>
+            <summary><i class="fa-solid fa-chevron-right summary-right"></i>Nibh Sem Sit Ullamcorper</summary>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quia harum aliquid velit excepturi
+              accusantium cumque voluptatibus quae dolores? Repellendus.</p>
+          </details>
+        </div>
+        <div class="detail-div">
+          <details>
+            <summary><i class="fa-solid fa-chevron-right summary-right"></i>Donec luctus imperdiet</summary>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quia harum aliquid velit excepturi
+              accusantium cumque voluptatibus quae dolores? Repellendus.</p>
+          </details>
+        </div>
+        <div class="detail-div">
+          <details>
+            <summary><i class="fa-solid fa-chevron-right summary-right"></i>Magna pars studiorum</summary>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quia harum aliquid velit excepturi
+              accusantium cumque voluptatibus quae dolores? Repellendus.</p>
+          </details>
+        </div>
+        <div class="detail-div">
+          <details>
+            <summary><i class="fa-solid fa-chevron-right summary-right"></i>Sedial eiusmod tempor</summary>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quia harum aliquid velit excepturi
+              accusantium cumque voluptatibus quae dolores? Repellendus.</p>
+          </details>
+        </div>
+      </div>
+      <div class="third-colom">
+        <h2>OUR AWARDS</h2>
+        <img src="./public/awards-logo-dark.webp" alt="Awars picture"><br>
+        <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Donec sed odio dui. Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum.</p>
+      </div>
+    </div>
+    <div class="copyright">
+      <div class="copyright-left">
+        <ul>
+          <li><a href="#" class="border-child" id="hover-test">Home</a></li>
+          <li><a href="#" class="border-child" id="hover-test">Booking</a></li>
+          <li><a href="#" class="border-child" id="hover-test">About</a></li>
+          <li><a href="#" id="hover-test">Contact</a></li>
+        </ul>
+      </div>
+      <div class="copyright-right">
+        <p>Copyright 2024 All Right Reserved by THINKERS </p>
+      </div>
+    </div>
+  </section>
+
+  <!--*=== FOOTER SECTION  End === -->
+
+
+
+
+  <script type="module" src="/script.js"></script>
+
+  <script type="module" src="./main.js"></script>
+
+</body>
+
+</html>
